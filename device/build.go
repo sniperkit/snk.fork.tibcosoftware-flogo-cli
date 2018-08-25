@@ -1,11 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package device
 
 import (
 	"flag"
-
 	"fmt"
-	"github.com/TIBCOSoftware/flogo-cli/cli"
 	"os"
+
+	"github.com/sniperkit/snk.fork.tibcosoftware-flogo-cli/cli"
 )
 
 var optBuild = &cli.OptionInfo{

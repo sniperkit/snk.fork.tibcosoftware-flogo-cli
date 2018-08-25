@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Command, OptionInfo, help and command execution pattern derived from
 // github.com/constabulary/gb, released under MIT license
 // https://github.com/constabulary/gb/blob/master/LICENSE
@@ -11,7 +16,7 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/TIBCOSoftware/flogo-cli/util"
+	"github.com/sniperkit/snk.fork.tibcosoftware-flogo-cli/util"
 )
 
 // Command represents a command that is executed within flogo project

@@ -1,17 +1,21 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package env
 
 import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"io/ioutil"
 	"os"
 	"os/exec"
-
-	"io/ioutil"
 	"path/filepath"
 
-	"github.com/TIBCOSoftware/flogo-cli/config"
-	"github.com/TIBCOSoftware/flogo-cli/util"
+	"github.com/sniperkit/snk.fork.tibcosoftware-flogo-cli/config"
+	"github.com/sniperkit/snk.fork.tibcosoftware-flogo-cli/util"
 )
 
 type FlogoProject struct {

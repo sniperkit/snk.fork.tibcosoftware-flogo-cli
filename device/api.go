@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package device
 
 import (
@@ -11,7 +16,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/TIBCOSoftware/flogo-cli/util"
+	"github.com/sniperkit/snk.fork.tibcosoftware-flogo-cli/util"
 )
 
 // BuildPreProcessor interface for build pre-processors

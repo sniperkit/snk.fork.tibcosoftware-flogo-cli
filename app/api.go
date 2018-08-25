@@ -1,9 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package app
 
 import (
 	"bytes"
 	"encoding/json"
 	"fmt"
+	"go/build"
 	"html/template"
 	"io/ioutil"
 	"os"
@@ -12,13 +18,12 @@ import (
 	"runtime"
 	"strings"
 
-	"go/build"
-
-	"github.com/TIBCOSoftware/flogo-cli/config"
-	"github.com/TIBCOSoftware/flogo-cli/dep"
-	"github.com/TIBCOSoftware/flogo-cli/env"
-	"github.com/TIBCOSoftware/flogo-cli/util"
 	"github.com/callum-ramage/jsonconfig"
+
+	"github.com/sniperkit/snk.fork.tibcosoftware-flogo-cli/config"
+	"github.com/sniperkit/snk.fork.tibcosoftware-flogo-cli/dep"
+	"github.com/sniperkit/snk.fork.tibcosoftware-flogo-cli/env"
+	"github.com/sniperkit/snk.fork.tibcosoftware-flogo-cli/util"
 )
 
 // dockerfile is the template for a dockerfile needed to build a docker image
@@ -265,7 +270,6 @@ func doPrepare(env env.Project, options *PrepareOptions) (err error) {
 						//)
 						cmd.Env = fgutil.ReplaceEnvValue(os.Environ(), "GOPATH", env.GetRootDir())
 
-
 						err = cmd.Run()
 						if err != nil {
 							return err
@@ -284,7 +288,6 @@ func doPrepare(env env.Project, options *PrepareOptions) (err error) {
 						//	fmt.Sprintf("GOPATH=%s", env.GetRootDir()),
 						//)
 						cmd.Env = fgutil.ReplaceEnvValue(os.Environ(), "GOPATH", env.GetRootDir())
-
 
 						err = cmd.Run()
 						if err != nil {

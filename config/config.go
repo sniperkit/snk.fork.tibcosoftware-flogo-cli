@@ -1,14 +1,18 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package config
 
 import (
-	"encoding/json"
-	"fmt"
-	"strings"
-
 	"bytes"
 	"compress/gzip"
 	"encoding/base64"
+	"encoding/json"
+	"fmt"
 	"io/ioutil"
+	"strings"
 
 	"github.com/TIBCOSoftware/flogo-lib/core/trigger"
 )

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package app
 
 import (
@@ -10,8 +15,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/TIBCOSoftware/flogo-cli/cli"
 	toml "github.com/pelletier/go-toml"
+
+	"github.com/sniperkit/snk.fork.tibcosoftware-flogo-cli/cli"
 )
 
 var optVersion = &cli.OptionInfo{

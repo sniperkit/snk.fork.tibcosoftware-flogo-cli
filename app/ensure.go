@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package app
 
 import (
@@ -5,8 +10,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/TIBCOSoftware/flogo-cli/cli"
-	"github.com/TIBCOSoftware/flogo-cli/dep"
+	"github.com/sniperkit/snk.fork.tibcosoftware-flogo-cli/cli"
+	"github.com/sniperkit/snk.fork.tibcosoftware-flogo-cli/dep"
 )
 
 var optEnsure = &cli.OptionInfo{

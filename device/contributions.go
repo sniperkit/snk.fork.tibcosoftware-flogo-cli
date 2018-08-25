@@ -1,10 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package device
 
 import (
 	"errors"
 	"path/filepath"
 
-	"github.com/TIBCOSoftware/flogo-cli/util"
+	"github.com/sniperkit/snk.fork.tibcosoftware-flogo-cli/util"
 )
 
 var triggerContribs = make(map[string]*TriggerContrib)

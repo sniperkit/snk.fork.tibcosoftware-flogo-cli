@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
 import (
@@ -5,10 +10,10 @@ import (
 	"fmt"
 	"io"
 	"os"
-
-	"github.com/TIBCOSoftware/flogo-cli/gen"
-	"github.com/TIBCOSoftware/flogo-cli/util"
 	"path"
+
+	"github.com/sniperkit/snk.fork.tibcosoftware-flogo-cli/gen"
+	"github.com/sniperkit/snk.fork.tibcosoftware-flogo-cli/util"
 )
 
 var (

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package app
 
 import (
@@ -5,7 +10,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/TIBCOSoftware/flogo-cli/cli"
+	"github.com/sniperkit/snk.fork.tibcosoftware-flogo-cli/cli"
 )
 
 var optUninstall = &cli.OptionInfo{

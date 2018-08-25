@@ -1,16 +1,23 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package app
 
 import (
 	"bytes"
 	"flag"
-	"github.com/TIBCOSoftware/flogo-cli/cli"
-	"github.com/TIBCOSoftware/flogo-cli/config"
-	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"os"
 	"path"
 	"path/filepath"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
+
+	"github.com/sniperkit/snk.fork.tibcosoftware-flogo-cli/cli"
+	"github.com/sniperkit/snk.fork.tibcosoftware-flogo-cli/config"
 )
 
 var GOLD_FLOGO_JSON = `{

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package app
 
 import (
@@ -7,10 +12,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/TIBCOSoftware/flogo-cli/cli"
 	"github.com/nareix/curl"
 	"github.com/olekukonko/tablewriter"
 	toml "github.com/pelletier/go-toml"
+
+	"github.com/sniperkit/snk.fork.tibcosoftware-flogo-cli/cli"
 )
 
 var optSearch = &cli.OptionInfo{

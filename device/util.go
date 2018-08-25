@@ -1,14 +1,20 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package device
 
 import (
 	"bufio"
 	"fmt"
-	"github.com/TIBCOSoftware/flogo-cli/cli"
-	"github.com/TIBCOSoftware/flogo-cli/util"
 	"io"
 	"os"
 	"strconv"
 	"strings"
+
+	"github.com/sniperkit/snk.fork.tibcosoftware-flogo-cli/cli"
+	"github.com/sniperkit/snk.fork.tibcosoftware-flogo-cli/util"
 )
 
 var (

@@ -1,13 +1,18 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package app
 
 import (
+	"encoding/json"
 	"flag"
 	"fmt"
 	"os"
 
-	"encoding/json"
-	"github.com/TIBCOSoftware/flogo-cli/cli"
-	"github.com/TIBCOSoftware/flogo-cli/config"
+	"github.com/sniperkit/snk.fork.tibcosoftware-flogo-cli/cli"
+	"github.com/sniperkit/snk.fork.tibcosoftware-flogo-cli/config"
 )
 
 var optList = &cli.OptionInfo{

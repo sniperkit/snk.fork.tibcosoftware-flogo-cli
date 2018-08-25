@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Command, OptionInfo and command execution pattern derived from
 // github.com/constabulary/gb, released under MIT license
 // https://github.com/constabulary/gb/blob/master/LICENSE
@@ -8,8 +13,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/TIBCOSoftware/flogo-cli/cli"
-	"github.com/TIBCOSoftware/flogo-cli/util"
+	"github.com/sniperkit/snk.fork.tibcosoftware-flogo-cli/cli"
+	"github.com/sniperkit/snk.fork.tibcosoftware-flogo-cli/util"
 )
 
 var optHelp = &cli.OptionInfo{
